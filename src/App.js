@@ -1,13 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+
 import "bootstrap/dist/css/bootstrap.min.css";
-import MainPage from "./components/MainPage";
-import "antd/dist/antd.css";
+import MainPage from "./components/toDo/MainPage";
+import Home from './components/reservationApp/pages/home/Home';
 
 function App() {
   return (
     <div className="App">
-      <MainPage />
+      <Home />
     </div>
   );
 }
